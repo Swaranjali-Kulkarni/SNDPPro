@@ -20,6 +20,9 @@
 </head>
 
 <body>
+<?php include '../header.php'?>
+<br><br><br>
+<br>
     <div class="page-wrapper bg-dark p-t-100 p-b-50">
         <div class="wrapper wrapper--w900">
             <div class="card card-6">
@@ -59,10 +62,10 @@
 
 
                        <div class="form-row">
-                        <div class="dropdown">
+
                             <div class="name">Designation</div>
                             <div class="value">
-                               <select input type="input--style-6" class="form-control" name="info" maxlength="email" placeholder="Info">
+                               <select input class="input--style-6" class="form-control" name="info" maxlength="email" placeholder="Info">
                                     <option value="Student">Student</option>
                                     <option value="Industry">Industry</option>
                                     <option value="Employee">Employee</option>
@@ -75,10 +78,10 @@
                         </div>
 
                         <div class="form-row">
-                            <div class="dropdown">
+
                                 <div class="name">How You Know Us</div>
                                 <div class="value">
-                                    <select input type="input--style-6" class="form-control" name="info" maxlength="email" placeholder="How You Know us">
+                                    <select input class="input--style-6" class="form-control" name="info" maxlength="email" placeholder="How You Know us">
                                         <option value="social">Social Media</option>
                                         <option value="news">Newspaper</option>
                                         <option value="google">Google Search</option>
@@ -91,14 +94,16 @@
                                 </div>
                             </div>
                         </div>
-                       </div>
-                    </form>
-                </div>
-
                 <div class="card-footer">
                     <button class="btn btn--radius-2 btn--blue-2" type="submit">Send Application</button>
                 </div>
+
             </div>
+
+            </form>
+                </div>
+
+               </div>
         </div>
     </div>
 
