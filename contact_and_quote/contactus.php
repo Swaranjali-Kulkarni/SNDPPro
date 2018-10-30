@@ -38,18 +38,24 @@
                             </div>
                         </div>
 
-                        <div class="form-row">
-                            <div class="name">Email address</div>
+                      <div class="form-row">
+                        <div class="name">Email Address</div>
                             <div class="value">
-                                    <input class="input--style-6" type="email" name="email" placeholder="example@email.com">
-                                </div>
+                        <input class ="input--style-6" type="email" name="email" placeholder="drone@gmail.com"
+                               size="30" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required
+                               title="Must be a globex.com email address" />
                             </div>
+                        </div>
+
+
+
 
                         <div class="form-row">
                             <div class="name">Mobile Number</div>
                             <div class="value">
-                                <input class="input--style-6" type="mobno" name="email" placeholder="Enter 10 Digit">
-                            </div>
+                              <input class="input--style-6" type="number" size="10" placeholder="Enter 10 Digit number"
+                                     pattern="[0-9]" required />
+                                   </div>
                         </div>
 
 
